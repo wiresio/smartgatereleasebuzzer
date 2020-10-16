@@ -1,13 +1,13 @@
 ### Smarten your gate release buzzer
 
-#### Modify your Sonoff Basic
+#### Modify your Sonoff Mini DIY
 ... such that it acts as a pure switch instead of interconnecting mains power.  
-For a howto, check out https://www.youtube.com/watch?v=9IbP7dhyonw :-) 
+For a howto showing modification of Sonoff Basic, check out https://www.youtube.com/watch?v=9IbP7dhyonw :-) 
 
 #### Install
 (TODO: Wiring diagram)
 
-#### Add Sonoff Basic to FHEM
+#### Add Sonoff Mini DIY to FHEM
 ##### Switch Config
 ```
 defmod sonoffdiy HTTPMOD none 0
