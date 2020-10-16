@@ -42,6 +42,8 @@ defmod sonoffdiyw watchdog sonoffdiy:on.* 00:00:02 SAME set sonoffdiy off;; trig
 
 #### Add to Homekit via Homebridge
 
+https://wiki.fhem.de/wiki/Homebridge_einrichten
+
 #### Create Homekit scene "Open the gate" and tell SIRI: "Open the gate"
 
 #### Create personal automation on iPhone via Shortcuts App using Personal Automation and NFC
