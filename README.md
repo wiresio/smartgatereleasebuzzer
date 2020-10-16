@@ -5,6 +5,7 @@
 For a howto, check out https://www.youtube.com/watch?v=9IbP7dhyonw :-) 
 
 #### Install
+(TODO: Wiring diagram)
 
 #### Add Sonoff Basic to FHEM
 ##### Switch Config
