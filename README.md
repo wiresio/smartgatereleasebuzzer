@@ -39,3 +39,11 @@ defmod sonoffdiystate at +*00:00:03 get sonoffdiy info
 ```
 defmod sonoffdiyw watchdog sonoffdiy:on.* 00:00:02 SAME set sonoffdiy off;; trigger sonoffdiyw .
 ```
+
+#### Add to Homekit via Homebridge
+
+#### Create Homekit scene "Open the gate" and tell SIRI: "Open the gate"
+
+#### Create personal automation on iPhone via Shortcuts App using Personal Automation and NFC
+
+#### Stick NFC tag to your gate and open it when iPhone is held near to the tag
