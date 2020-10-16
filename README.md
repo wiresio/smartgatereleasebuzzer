@@ -16,7 +16,7 @@ attr sonoffdiy get01Data { "deviceid": "", "data": { } }
 attr sonoffdiy get01Method POST
 attr sonoffdiy get01Name info
 attr sonoffdiy get01NoArg 1
-attr sonoffdiy get01URL http://192.168.178.93:8081/zeroconf/info
+attr sonoffdiy get01URL http://SONOFFDIYIPADDRESS:8081/zeroconf/info
 attr sonoffdiy httpVersion 1.1
 attr sonoffdiy reading01Name state
 attr sonoffdiy reading01Regex "switch":"([\w\.]+)
@@ -24,18 +24,16 @@ attr sonoffdiy room Homekit
 attr sonoffdiy set01Data { "deviceid": "", "data": { "switch": "off" } }
 attr sonoffdiy set01Name off
 attr sonoffdiy set01NoArg 1
-attr sonoffdiy set01URL http://192.168.178.93:8081/zeroconf/switch
+attr sonoffdiy set01URL http://SONOFFDIYIPADDRESS:8081/zeroconf/switch
 attr sonoffdiy set02Data { "deviceid": "", "data": { "switch": "on" } }
 attr sonoffdiy set02Name on
 attr sonoffdiy set02NoArg 1
-attr sonoffdiy set02URL http://192.168.178.93:8081/zeroconf/switch
+attr sonoffdiy set02URL http://SONOFFDIYIPADDRESS:8081/zeroconf/switch
 attr sonoffdiy timeout 2
-attr sonoffdiy verbose 0
 ```
 ##### State polling
 ```
 defmod sonoffdiystate at +*00:00:03 get sonoffdiy info
-attr sonoffdiystate verbose 0
 ```
 ##### Watchdog to turn switch off
 ```
