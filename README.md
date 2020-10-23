@@ -4,7 +4,7 @@
 ... such that it acts as a pure switch instead of interconnecting mains power.  
 For a howto showing modification of Sonoff Basic, check out https://www.youtube.com/watch?v=9IbP7dhyonw :-)  
 
-For the Mini the wiring looks like this
+For the Mini the circuit wiring looks like this
 ![alt text](https://github.com/wiresio/smartgatereleasebuzzer/blob/main/sonoffminimodification.png "Sonoff Mini Modification")
 
 #### Install
